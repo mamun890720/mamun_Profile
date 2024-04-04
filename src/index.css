@@ -1,0 +1,10 @@
+body{
+    background: linear-gradient(  #0f151a , #172f38);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+p{
+    color: white;
+}

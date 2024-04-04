@@ -1,0 +1,70 @@
+.homeBanner{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+
+}
+.leftBanner, .leftBannerTop{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.leftBannerTop p{
+    font-size: 1.2rem;
+}
+.leftBannerTop h2{
+    font-size: 2.5rem;
+    color: #FF7104;
+}
+.leftBannerBottom{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cvDownload{
+   width: 170px;
+   height: 40px;
+   padding: 0 10px;
+   background: #FF7104;
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   font-size: 16px;
+   color: white;
+   transition: all 0.5s ease-in-out;
+   position: relative;
+}
+.cvDownload span{
+    position: absolute;
+   top: 12px;
+   right: 10px;
+   transition: all 0.5s ease-in-out;
+   opacity: 0;
+}
+.cvDownload:hover{
+    background: #994505;
+    width: 200px;
+}
+.cvDownload:hover span{
+   opacity: 1;
+}
+ a{
+    text-decoration: none;
+    color: white;
+}
+.leftBannerBottom .github{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    background: rgb(0, 174, 255);
+}
+.rightBanner img{
+  filter:   hue-rotate(20deg);
+}
+/* Skills Section */
