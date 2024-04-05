@@ -1,0 +1,78 @@
+.skillTittle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.skillTittle h2 {
+  color: white;
+  margin: 0 20px;
+  font-size: 45px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #ff7e5f, #feb47b, #fff6b9); /* Choose your colors */
+  background-clip: text;
+  color: transparent;
+}
+/* Web developer skill */
+.webDeveloperTittle h2{
+    font-size: 26px;
+    color: white;
+    margin: 0 20px;
+}
+.webDeveloperTittle h2 span{
+    background: linear-gradient(to right, #ff7e5f, #feb47b, #fff6b9); 
+    background-clip: text;
+    color: transparent; 
+}
+.webSkillList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+}
+.webSkillItems{
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    width: 35%;
+}
+.html{
+    font-size: 120px;
+    color: #e34c26 ;
+}
+.css{
+    font-size: 120px;
+    color: #264de4 ;
+}
+.htmlContain{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.htmlSkillRange{
+    width: 390px;
+    height: 30px;
+    background: #fff6b9;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+  
+}
+.htmlSkillRange .rangeParent{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 5px;
+}
+.htmlRang{
+    width: 319px;
+    height: 30px;
+    background: #e34c26;
+}
+.htmlSkillRange .cssRang{
+    width: 292px;
+    height: 30px;
+    background: #264de4;
+}

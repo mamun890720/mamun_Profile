@@ -1,24 +1,17 @@
 import React from 'react'
 import "../Components/Skill.css"
+import Web_developer_skill from './Web_developer_skill'
+Web_developer_skill
 const Skill = () => {
   return (
     <>
-    {/* <div class="container">
-      <div class="sun">
-        <img src="./images/sun.png" alt="sun" />
+    <div className="skillTittle">
+      <h2>My SKills</h2>
+      <div className="skillsMe">
+        <p>I am showing my best skill with details in bellow  </p>
       </div>
-      <div class="mercury"></div>
-      <div class="venus"></div>
-      <div class="earth">
-        <div class="moon"></div>
-      </div>
-      <div class="mars"></div>
-      <div class="jupiter"></div>
-      <div class="saturn"></div>
-      <div class="uranus"></div>
-      <div class="neptune"></div>
-      <div class="pluto"></div>
-    </div> */}
+    </div>
+    <Web_developer_skill/>
     </>
   )
 }
