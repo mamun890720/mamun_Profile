@@ -39,9 +39,6 @@
     cursor: pointer;
     position: relative;
 }
-.webSkillItems:hover.webSkillItems p, .webSkillItems:hover.webSkillItems h3 {
-    color: black;
-}
 .webSkillItems::before{
     content:'';
     position:absolute;
@@ -49,8 +46,8 @@
     left:0;
     width:100%;
     height:100%;
-    background:#ffdec1;
-   box-shadow: inset 5px 6px 15px #00000077;
+    background: linear-gradient(to left, #580442 , #8800ff);
+    box-shadow: 5px 6px 15px #00000077;
     transition:0.5s;
     transform-origin:right;
     transform:scaleX(0);
@@ -188,5 +185,63 @@
 .webDevFullPage a:hover:before{
     transition:transform 0.5s;
     transform-origin:left;
+    transform:scaleX(1);
+}
+.webProjectTitle h2{
+    margin-top: 20px;
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    background:  linear-gradient(to right, #ff7e5f, #feb47b, #fff6b9);
+    background-clip: text;
+    color: transparent;
+}
+.webProjectList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    width: 100%;
+    min-height: 650px;
+    background:radial-gradient(circle, rgba(7,144,204,1) 0%, rgba(188,104,22,0) 51%, rgba(43,148,255,0) 100%);
+    padding: 20px;
+}
+.webListItems{
+    cursor: pointer;
+    width: 600px;
+    height: 350px;
+    background: #133035;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.webListItems img{
+    border-radius: 28px;
+    filter: drop-shadow(5px 10px 15px rgba(0, 0, 0, 0.351));
+}
+.webListItems::before{
+    content:'view Full website';
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 20%;
+    border-radius: 10px;
+    background:#FF7104;
+    transform-origin: bottom;
+    transform:scaleX(0);
+    transition:0.5s;
+    z-index: 5;
+}
+.webListItems:hover:before{
+    transition:transform 0.5s;
+    transform-origin:top;
     transform:scaleX(1);
 }

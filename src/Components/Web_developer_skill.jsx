@@ -1,6 +1,8 @@
 import React from 'react'
 import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
+import WebImage1 from "../../public/Image/Web Image.png"
+
 
 const Web_developer_skill = () => {
   return (
@@ -63,6 +65,25 @@ const Web_developer_skill = () => {
                 <p>76%</p>
                 </div>
             </div>
+        </div>
+    </div>
+   </div>
+   <div className="webProject">
+    <div className="webProjectTitle">
+        <h2>Web Development Projects</h2>
+    </div>
+    <div className="webProjectList">
+        <div className="webListItems">
+        <a href="#"><img src={WebImage1} alt="" width="550px" /></a>
+        </div>
+        <div className="webListItems">
+        <a href="#"><img src={WebImage1} alt="" width="550px" /></a>
+        </div>
+        <div className="webListItems">
+        <a href="#"><img src={WebImage1} alt="" width="550px" /></a>
+        </div>
+        <div className="webListItems">
+        <a href="#"><img src={WebImage1} alt="" width="550px" /></a>
         </div>
     </div>
    </div>
