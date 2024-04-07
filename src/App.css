@@ -13,6 +13,9 @@
     align-items: center;
     padding: 20px;
     background: #161f25;
+    z-index: 999;
+    position: sticky;
+    top: 0;
 }
 .menus ul {
     display: flex;

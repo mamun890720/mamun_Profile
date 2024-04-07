@@ -11,7 +11,7 @@ const Banner = () => {
             <p>
               Hi I am <b>Al Mamun</b>{" "}
             </p>
-            <p>A Frontend </p>
+            <p>A Probational </p>
             <h2>Web Developer</h2>
           </div>
           <div className="leftBannerBottom">
