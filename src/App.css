@@ -82,6 +82,7 @@
 }
 .socialIcon ul{
   list-style: none;
+  line-height: 2;
 }
 .socialIcon  a{
   font-size: 24px;
