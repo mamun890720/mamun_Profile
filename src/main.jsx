@@ -9,6 +9,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <Home/>,
   },
+  {
+    path: "/Project",
+    errorElement: <div>The Page Was Not Found</div>
+  }
 ]);
 
 

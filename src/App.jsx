@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import Navbar from './Components/navbar'
+import SocialIcon from './Components/SocialIcon'
+
 
 
 
@@ -11,6 +13,7 @@ function App() {
   return (
     <>
      <Navbar/>
+    <SocialIcon/>
     </>
   )
 }
