@@ -6,13 +6,13 @@ import SocialIcon from './Components/SocialIcon'
 
 
 
-
 function App() {
   const [count, setCount] = useState(0)
   
   return (
     <>
      <Navbar/>
+    <particleBackground/>
     <SocialIcon/>
     </>
   )
