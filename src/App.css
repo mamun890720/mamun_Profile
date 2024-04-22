@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#particles{
+position: absolute;
+z-index: -1;
+width: 100%;
+}
 /* Header Section and menu  */
 .mainHead{
     width: 100%;

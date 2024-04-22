@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './Components/navbar'
 import SocialIcon from './Components/SocialIcon'
-
+import ParticlesComponent from './Components/Particle'
 
 
 
@@ -12,8 +12,8 @@ function App() {
   return (
     <>
      <Navbar/>
-    <particleBackground/>
     <SocialIcon/>
+   <ParticlesComponent id="particles"/>
     </>
   )
 }
